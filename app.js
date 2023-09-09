@@ -1,4 +1,4 @@
-const faker = require('faker');
+
 
 exports.hello = async(event) => {
     const data =  event.body;
@@ -6,10 +6,9 @@ exports.hello = async(event) => {
     const reqString = buff.toString('ascii');
     const reqJson = JSON.parse(reqString);
 
-    const country = faker.address.country();
     const response = {
         statusCode : 200,
-        body: `Hello ${reqJson.name} from ${country}`
+        body: `Hello ${reqJson.name} from india`
     };
 
     return response;

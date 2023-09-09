@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/dorjee9/node-test.lambda/issues"
   },
-  "homepage": "https://github.com/dorjee9/node-test.lambda#readme",
-  "dependencies": {
-    "faker": "^6.6.6"
-  }
+  "homepage": "https://github.com/dorjee9/node-test.lambda#readme"
 }
