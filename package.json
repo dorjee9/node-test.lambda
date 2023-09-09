@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/dorjee9/node-test.lambda#readme",
   "dependencies": {
-    "faker": "^6.6.6"
+    "express": "^4.18.2"
   }
 }
