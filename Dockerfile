@@ -2,8 +2,6 @@ FROM public.ecr.aws/lambda/nodejs:14
 
 COPY app.js package*.json /var/task/
 
-RUN npm install
+RUN npm ci --only=production
 
-EXPOSE 3000
-
-CMD ["node","app.js"]
+CMD ["app.hello"]
